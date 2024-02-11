@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoService</title>
+
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/index.css">
+<script src="js/index.js" type="module"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <img src="img/logo1.svg" alt="Logo autoserwisu" class="header__logo">
+            <a href="#contact" class="header__link">Choose a specialist</a>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="visually-hidden">AutoService&mdash; we do car repairs, sign up for repairs online</h1>
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero__title">
+                    <span class="hero__title-up">Workshop</span>
+                    <span class="hero__title-down">repair</span>
+                </h2>
+
+               <div class="hero__intro">
+                <p class="hero__year">
+                    <time datatime="2024">
+                        from 2024
+                    </time>
+                 </p>
+                <p class="hero__tagline">Fast. Qualitatively. Available.</p>
+               </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about__bg">
+            <div class="container about__container">
+                <h2 class="about__title">
+                    <span class="about__title-text">Why</span>
+                    <span class="about__title-text about__title-text_black">us</span>
+                    </h2>
+
+                <p class="about__text">Since the founding of our auto repair shop, we have paid special attention to every detail and worked with any brand of car.</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="contact__title">Fill out the form and we will <span class="contact__title contact__title-red">contact you</span></h2>
+
+                <form class="contact__form form ">
+                    <fieldset class="form__fieldset form__fieldset_active form__fieldset_type">
+                        <legend class="form__title">Choose the right direction</legend>
+                   
+                   <div class="form__radio-wrapper form__radio-wrapper_type">
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="bodyRepair" value="bodyRepair">   
+                        <label class="radio__label" for="bodyRepair">Body repair </label>
+                    </div>                  
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="engineDiagnosisRepair" value="engineDiagnosisRepair">
+                        <label class="radio__label" for="engineDiagnosisRepair">Engine diagnostics and repair</label>
+                    </div>                  
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="electricalDignosis" value="electricalDignosis">
+                        <label class="radio__label" for="electricalDignosis">Electrical and electronics</label>
+                    </div>                                       
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="brakeSystems" value="brakeSystems">
+                        <label class="radio__label" for="brakeSystems">Brake systems and chassis</label>
+                    </div>                      
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="weldingWork" value="weldingWork">
+                        <label class="radio__label" for="weldingWork">Welding work</label>
+                    </div>                   
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="acRepair" value="acRepair">
+                    <label class="radio__label" for="acRepair">Air conditioning system repair and maintenance</label>
+                    </div>
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="oilChange" value="oilChange"> 
+                        <label class="radio__label" for="oilChange">Oil change and maintenance</label>
+                    </div> 
+                    <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="transmisonRepair" value="transmisonRepair"> 
+                        <label class="radio__label" for="transmisonRepair">Transmission and gearbox repair</label>
+                    </div>
+                     <div class="radio">
+                        <input class="radio__input" type="radio" name="type" id="tireBalancing" value="tireBalancing">
+                        <label class="radio__label" for="tireBalancing">Tire fitting and balancing</label>
+                     </div>
+                   </div>
+
+                    </fieldset>
+
+                    <fieldset class="form__fieldset form__fieldset_date">
+                        <legend class="form__title">Select date and time</legend>
+
+                        <div class="form__months">
+                            <button class="form__btn-month form__btn-month_active" type="button">February</button>
+                            <button class="form__btn-month" type="button">March</button>
+                            <button class="form__btn-month" type="button">April</button>
+                        </div>
+
+                    <div class="form__radio-wrapper form__radio-wrapper_day">
+                        <div class="radio">
+                            <input class="radio__input" type="radio" name="day" id="day1">
+                            <label class="radio__label" for="day1">1</label>  
+                        </div>
+
+                        <div class="radio">
+                            <input class="radio__input" type="radio" name="day" id="day2">
+                            <label class="radio__label" for="day2">2</label>
+                        </div>
+                            
+                        <div class="radio">
+                            <input class="radio__input" type="radio" name="day" id="day3">
+                            <label class="radio__label" for="day3">3</label>
+                        </div>    
+                            
+                        <div class="radio">
+                            <input class="radio__input" type="radio" name="day" id="day4">
+                            <label class="radio__label" for="day4">4</label>
+                        </div>    
+                            
+                        <div class="radio">
+                            <input class="radio__input" type="radio" name="day" id="day5">
+                            <label class="radio__label" for="day5">5</label>
+                        </div>    
+                            
+                        <div class="radio">
+                            <input class="radio__input" type="radio" name="day" id="day6">
+                            <label class="radio__label" for="day6">6</label>
+                        </div>
+                    </div>
+
+                        <div class="form__time">
+                            <p class="form__subtitle">Available time:</p>
+
+                            <div class="form__radio-wrapper form__radio-wrapper_time">
+                                
+                                <input class="radio__input" name="time" type="radio" id="time10">     
+                                <label class="form__item" for="time10">10:00</label>
+                           
+                                <input class="radio__input" name="time" type="radio" id="time14"> 
+                                <label class="form__item" for="time14">14:00</label>
+                            
+                                <input class="radio__input" name="time" type="radio" id="time15">
+                                <label class="form__item" for="time15">15:00</label>
+                           
+                                <input class="radio__input" name="time" type="radio" id="time17">
+                                <label class="form__item" for="time17">17:00</label>
+                           
+                                <input class="radio__input" name="time" type="radio" id="time20">   
+                                <label class="form__item" for="time20">20:00</label>
+                            
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form__fieldset form__fieldset_client">
+                        <legend class="form__title">Fill in the fields</legend>
+
+                            <div class="form__input-wrapper">
+                                <input class="form__input" type="text" name="phone" placeholder="Phone">
+                                <input class="form__input" type="text" name="car" placeholder="Car model and make">
+                                <input class="form__input" type="text" name="year" placeholder="Year">
+                                <input class="form__input" type="text" name="name" placeholder="Name">
+                            </div>
+
+                            <p class="form__info form__info_type">Engine diagnostics and repair</p>
+                            <p class="form__info">
+                                <time class="form__info-data"date datatime="2024-03-02T14:00">
+                                    <span class="form__info-data-day">03.02</span>
+                                     <span class="form__info-data-time">14:00</span>
+                                    </time>
+                                </p>
+                    </fieldset>
+
+                        <div class="form__btn-wrapper">
+                            <button class="form__btn form__btn_prev" type="button" style="display: none;" >
+                                <svg
+                                width="13"
+                                height="12"
+                                viewBox="0 0 13 12"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                 d="M0.46967 6.53033C0.176777 6.23744 0.176777 5.76256 0.46967 5.46967L5.24264 0.696699C5.53553 0.403806 6.01041 0.403806 6.3033 0.696699C6.59619 0.989593 6.59619 1.46447 6.3033 1.75736L2.06066 6L6.3033 10.2426C6.59619 10.5355 6.59619 11.0104 6.3033 11.3033C6.01041 11.5962 5.53553 11.5962 5.24264 11.3033L0.46967 6.53033ZM13 6.75H1V5.25H13V6.75Z"
+                                  fill="currentColor"/>
+                                </svg>
+                                <span>Back</span>
+                                </button>
+
+                            <button class="form__btn form__btn_next" type="button">
+                                <span>Further</span>
+                                <svg
+                                    width="13"
+                                    height="12"
+                                    viewBox="0 0 13 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.5303 6.53033C12.8232 6.23744 12.8232 5.76256 12.5303 5.46967L7.75736 0.696699C7.46447 0.403806 6.98959 0.403806 6.6967 0.696699C6.40381 0.989593 6.40381 1.46447 6.6967 1.75736L10.9393 6L6.6967 10.2426C6.40381 10.5355 6.40381 11.0104 6.6967 11.3033C6.98959 11.5962 7.46447 11.5962 7.75736 11.3033L12.5303 6.53033ZM0 6.75H12V5.25H0V6.75Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+
+                            <button class="form__btn form__btn_submit" type="submit" style="display: none;">Submit</button>
+                        </div>
+                </form>
+            </div>
+        </section>
+    </main>
+  
+    <footer class="footer">
+        <div class="container footer__container">
+            <img class="footer__logo" src="img/logo1.svg" alt="Logo autoserwisu" >
+            <p class="footer__copyright">© AutoService, 2024</p>
+            <ul class="footer__developers">
+                <li class="footer__developer">Designer: 
+                    <a href="https://t.me/mrshmalloww" class="footer__developer-link">A. Ilina</a>
+                </li>
+                <li class="footer__developer">Developer:
+                    <a href="https://t.me/ivan" class="footer__developer-link">Ivan Katrenko</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

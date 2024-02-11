@@ -1,0 +1,106 @@
+
+*,
+&::before,
+&::after {
+    box-sizing: inherit;
+}
+
+html {
+    position: relative;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    position: relative;
+    min-width: 320px;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgb(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    background: #F0F4F4;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-height: 100%;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+fieldset {
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.container {
+    --container-width: 1180px;
+    --container-padding: 30px;
+    max-width: 1240px;
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+
+@media(max-width: 1080px) {
+    .container {
+        --container-padding: 66px;
+    }
+}
+
+@media(max-width: 900px) {
+    .container {
+        --container-padding: 44px;
+    }
+}
+
+@media(max-width: 660px) {
+    .container {
+        --container-padding: 20px;
+    }
+}
+
+@media(max-width: 480px) {
+    .container {
+        --container-padding: 16px;
+    }
+}
