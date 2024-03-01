@@ -1,4 +1,4 @@
-import { fetchData } from './fetchData'
+import { fetchData } from './fetchData.js'
 
 const form = document.querySelector('.form');
 const formBtnPrev = document.querySelector('.form__btn_prev');
@@ -18,8 +18,8 @@ const formInfoData = document.querySelector('.form__info_data');
 
 
 
-currentMonth = new Intel.DateTimeFormat('en - EN', { month: 'long' }).format(new Date(),
-) //таким образом определяем текущий месяц Intel.DateTimeFormat
+// let currentMonth = new Intl.DateTimeFormat('en-EN', { month: 'long' }).format(new Date(),)
+//таким образом определяем текущий месяц Intel.DateTimeFormat
 
 let month = 'january'
 
